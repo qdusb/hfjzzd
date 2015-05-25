@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+  margin: 0px;
+  padding: 10px;
+  background: #DDEEF2;
+  color: #192E32;
+  font: 12px "sans-serif", "Arial", "Verdana";
+}
+
+form{margin:0px;padding:0px;}
+input, textarea, select {font: 12px "courier new";}
+a{color:#335B64; text-decoration:none;}
+a:hover{color:#EB8A3D; text-decoration:underline;}
+
+a.label
+{
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  padding:4px 5px 2px 23px;
+  border:1px solid #278296;
+  border-right:2px solid #278296;
+  border-bottom:2px solid #278296;
+  background:#DDEEF2 url(images/icon_add.gif) no-repeat 3px center;
+}
+
+input.submit 
+{
+  padding: 2px 8px 0px;
+  margin: 2px 2px;
+  border: 1px solid #2D5082;
+  background: url(images/button_bg.gif) repeat-x;
+}
+
+#headerTable
+{
+	background: #F4FAFB;
+  	border: 1px solid #BBDDE5;
+	color: #9CACAF;	
+	margin: 0 0 10px 0;
+  	overflow:hidden;
+}
+#headerTable td{padding:5px 8px; font-weight:bold;font-size:14px;}
+
+#footerTable
+{
+  background: #F4FaFb;
+  border: 1px solid #BBDDE5;  
+  color: #9CACAF;
+  margin: 10px 0;
+  text-align: center;
+}
+#footerTable td{padding:10px; line-height:160%;}
+
+/* 列表样式 */
+#mainTable{width:100%; background:#EEF8F9; border:1px solid #BBDDE5; margin:10px auto;}
+#mainTable th{background-color:#BBDDE5;height:25px;font-weight:bold;}
+#mainTable td{background: #FFFFFF;height:25px;padding:0px 5px;}
+#mainTable td.label{text-align:right; font-weight:bold; width:16%;}
+
+/* 编辑表格样式 */
+#editTable{background:#FFF; border-top:10px solid #FFF; border-bottom:10px solid #FFF;}
+#editTable td{padding:0px 5px;}
+#editTable td.label{text-align:right; font-weight:bold; width:30%;}
